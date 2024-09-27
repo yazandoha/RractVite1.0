@@ -1,0 +1,29 @@
+.bg{
+    background-color: blue;
+}
+.bg::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+.active{
+    color: red;
+}
+.bg:hover{
+    background-color: aqua;
+}
+
+.ss{
+    color: white;
+}
+
+.log{
+    background-color: green;
+}
+.notLog{
+    background-color: brown;
+}
