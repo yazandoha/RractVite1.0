@@ -4,6 +4,8 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './Component/Navbar'
 import Producr from './Component/Producr';
+import Count from './Component/Count';
+import Product2 from './Component/Product2';
 
 function App() {
 
@@ -29,13 +31,16 @@ function App() {
   }
   return (
   <>
+    <Count/>
+    <Product2/>
     <Navbar/>
-
+    <div className="row">
     {
       products.map((product,index)=>{
         return <Producr productDetails={product}/> 
       })
     }
+    </div>
      
     {/* <Producr productDetails={products[1]}/>  
     <Producr productDetails={products[2]}/>   */}

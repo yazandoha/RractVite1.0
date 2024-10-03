@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.js'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  // <StrictMode>
+  // </StrictMode>
     <App />
-  </StrictMode>,
 )
